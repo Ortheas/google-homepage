@@ -9,13 +9,11 @@ ul {
 li {
     /*display: inline;*/
     float: left;
-    background-color: white;
 }
 
 a {
     display: block;
     padding:8px;
-    background-color:white;
     color: #5f6368;
     font-family: arial, sans-serif;
     font-size: 13px;
@@ -58,4 +56,12 @@ li a:hover {
     box-shadow: 0 1px 1px rgba(0,0,0,0.1);
     color: #222;
 
+}
+
+#bottom {
+    position: fixed;
+    bottom:0;
+    width:100%;
+    border: 1px solid #e7e7e7;
+    background-color:#f3f3f3;
 }
