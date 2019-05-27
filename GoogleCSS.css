@@ -1,5 +1,31 @@
 /* Google CSS */
 
+ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+li {
+    /*display: inline;*/
+    float: left;
+    background-color: white;
+}
+
+a {
+    display: block;
+    padding:8px;
+    background-color:white;
+    color: #5f6368;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
 #input   {
     background-color:white;
     border-width: 1px;
@@ -15,19 +41,19 @@
     }
 
 .button{
-background-color: #f2f2f2;
-border:1px solid #f2f2f2;
-border-radius: (4px, 4px, 4px, 4px);
-font-size: 14px;
-margin: (11px, 4px, 11px, 4px);
-min-width: 54px;
-padding: (0px, 16px, 0px, 16px);
-text-align: center;
-height:36px;
-font-family: arial, sans-serif;
-color: #5f6368;
-}
-.button:hover{
+    background-color: #f2f2f2;
+    border:1px solid #f2f2f2;
+    border-radius: (4px, 4px, 4px, 4px);
+    font-size: 14px;
+    margin: (11px, 4px, 11px, 4px);
+    min-width: 54px;
+    padding: (0px, 16px, 0px, 16px);
+    text-align: center;
+    height:36px;
+    font-family: arial, sans-serif;
+    color: #5f6368;
+    }
+.button:hover {
     border: 1px solid #c6c6c6;
     box-shadow: 0 1px 1px rgba(0,0,0,0.1);
     color: #222;
